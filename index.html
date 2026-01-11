@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Casino Mini App</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://telegram.org/js/telegram-web-app.js"></script>
+</head>
+<body>
+
+<div id="app">
+  <header>
+    <h1>🎰 Casino</h1>
+    <div id="balance">Баланс: 0</div>
+  </header>
+
+  <nav>
+    <button onclick="openGame('slot')">Slot</button>
+    <button onclick="openGame('crash')">Crash</button>
+    <button onclick="openGame('dice')">Dice</button>
+  </nav>
+
+  <main id="game-area">
+    <p>Выбери игру</p>
+  </main>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
