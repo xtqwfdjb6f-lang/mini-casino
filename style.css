@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0f172a;
+  color: white;
+}
+
+header {
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  background: #020617;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  background: #020617;
+  padding: 10px;
+}
+
+button {
+  background: #22c55e;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+#game-area {
+  padding: 20px;
+  text-align: center;
+}
